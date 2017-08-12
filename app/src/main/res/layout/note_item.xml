@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/parent_linear_layout_note_item">
+
+    <ImageView
+        android:id="@+id/note_image_preview"
+        style="@style/image_view_note_item" />
+
+    <LinearLayout style="@style/child_linear_layout_note_item">
+
+        <TextView
+            android:id="@+id/text_view_title"
+            style="@style/title_text_view_note_item"
+            tools:text="Title" />
+
+        <TextView
+            android:id="@+id/text_view_content"
+            style="@style/content_text_view_note_item"
+            tools:text="Note" />
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/relative_layout_activity_note">
+
+    <LinearLayout style="@style/first_linear_layout_activity_note">
+
+        <EditText
+            android:id="@+id/edit_text_title"
+            style="@style/title_edit_text_activity_note" />
+
+        <EditText
+            android:id="@+id/edit_text_content"
+            style="@style/content_edit_text_activity_note" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear"
+        style="@style/second_linear_layout_activity_note">
+
+        <ImageView
+            android:id="@+id/note_image"
+            style="@style/image_view_activity_note" />
+
+        <Button
+            android:id="@+id/button_browse_image"
+            style="@style/button_browse_image_activity_note" />
+    </LinearLayout>
+
+
+</RelativeLayout>

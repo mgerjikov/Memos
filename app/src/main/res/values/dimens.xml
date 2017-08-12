@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="layout_margin_for_relative_layout_activity_main">8dp</dimen>
+    <dimen name="layout_height_for_first_linear_layout_activity_main">315dp</dimen>
+    <dimen name="layout_height_for_title_edit_text_activity_main">60dp</dimen>
+    <dimen name="layout_margin_of_four_d_p">4dp</dimen>
+    <dimen name="width_and_height_for_image_view_activity_note">150dp</dimen>
+    <dimen name="button_browse_image">140dp</dimen>
+    <dimen name="button_margin_left">40dp</dimen>
+    <dimen name="layout_margin_for_image_view_in_note_item">10dp</dimen>
+    <dimen name="margin_and_margin_bottom_for_linear_layout_and_title_text_note_item">12dp</dimen>
+
+    <dimen name="title_edit_text_size_activity_note">18sp</dimen>
+    <dimen name="content_et_and_tv_size_activity_note_and_note_item">16sp</dimen>
+    <dimen name="title_text_view_note_item">22sp</dimen>
+</resources>

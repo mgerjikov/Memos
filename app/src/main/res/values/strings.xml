@@ -1,0 +1,36 @@
+<resources>
+    <!--  App name  -->
+    <string name="app_name">Memos</string>
+
+    <!--  Hints  -->
+    <string name="title_hint">Title</string>
+    <string name="content_hint">Note</string>
+    <string name="browse_image_button">browse image</string>
+
+    <!-- Labels  -->
+    <string name="add_new_memo_label">Add new memo</string> <!-- Also used in menu_main_activity.xml  -->
+    <string name="edit_memo_label">Edit memo</string>
+
+    <!--  Toast Messages  -->
+    <string name="toast_not_saved_or_updated">Memo not saved or updated!</string>
+    <string name="toast_empty_title">Please input a title</string>
+    <string name="toast_empty_content">Please input some content</string>
+    <string name="toast_error_saving">Something went wrong! Error saving memo!</string>
+    <string name="toast_successful_save">New memo successfully added!</string>
+    <string name="toast_error_update">Error updating memo!</string>
+    <string name="toast_successful_update">Memo successfully updated!</string>
+    <string name="toast_error_deletion">Unsuccessful deletion!</string>
+    <string name="toast_successful_deletion">Memo successfully deleted!</string>
+
+    <!-- Alert Dialog messages  -->
+    <string name="alert_delete">You are about to delete this memo! Are you sure?</string>
+    <string name="alert_delete_confirmation">Delete</string>
+    <string name="alert_delete_cancellation">Cancel</string>
+    <string name="alert_update">You have unsaved changes. Are you sure you want to leave?</string>
+    <string name="alert_update_confirmation">Leave</string>
+    <string name="alert_update_cancellation">Stay here</string>
+
+    <!-- Menu labels  -->
+    <string name="save_new_memo">Save</string>
+    <string name="delete_memo">Delete</string>
+</resources>

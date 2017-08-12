@@ -1,0 +1,140 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <!-- activity_main.xml styles   -->
+    <!-- Custom style for RelativeLayout in activity_main.xml -->
+    <style name="relative_layout_activity_main">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@android:color/white</item>
+    </style>
+    <!--  Custom style for the ImageView in activity_main.xml -->
+    <style name="image_view_activity_main">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">fill</item>
+        <item name="android:src">@drawable/empty_state_view</item>
+    </style>
+    <!--  Custom style for the LinearLayout in activity_main.xml -->
+    <style name="linear_layout_activity_main">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+    <!--  Custom style for the ListView in activity_main.xml -->
+    <style name="list_view_activity_main">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_alignParentTop">true</item>
+    </style>
+    <!-- activity_note.xml styles -->
+    <!-- Custom style for the RelativeLayout in activity_note.xml -->
+    <style name="relative_layout_activity_note">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_margin">@dimen/layout_margin_for_relative_layout_activity_main
+        </item>
+    </style>
+    <!-- Custom style for the first LineaLayout in activity_main.xml -->
+    <style name="first_linear_layout_activity_note">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">
+            @dimen/layout_height_for_first_linear_layout_activity_main
+        </item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+    <!-- Custom style for the EditText that represent the title field -->
+    <style name="title_edit_text_activity_note">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/layout_height_for_title_edit_text_activity_main
+        </item>
+        <item name="android:hint">@string/title_hint</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/title_edit_text_size_activity_note</item>
+    </style>
+    <!-- Custom style for the EditText that represent the content field -->
+    <style name="content_edit_text_activity_note">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:hint">@string/content_hint</item>
+        <item name="android:gravity">top</item>
+        <item name="android:textSize">@dimen/content_et_and_tv_size_activity_note_and_note_item
+        </item>
+    </style>
+    <!-- Custom style for the second LinearLayout in activity_note.xml -->
+    <style name="second_linear_layout_activity_note">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_margin">@dimen/layout_margin_of_four_d_p</item>
+        <item name="android:layout_alignParentBottom">true</item>
+    </style>
+    <!-- Custom style for the ImageView in activity_note_xml -->
+    <style name="image_view_activity_note">
+        <item name="android:layout_width">@dimen/width_and_height_for_image_view_activity_note
+        </item>
+        <item name="android:layout_height">@dimen/width_and_height_for_image_view_activity_note
+        </item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_margin">@dimen/layout_margin_of_four_d_p</item>
+        <item name="android:src">@drawable/browse_image</item>
+    </style>
+    <!-- Custom style for the browsing images Button in activity_note.xml -->
+    <style name="button_browse_image_activity_note">
+        <item name="android:layout_width">@dimen/button_browse_image</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginLeft">@dimen/button_margin_left</item>
+        <item name="android:background">@android:drawable/dialog_holo_light_frame</item>
+        <item name="android:text">@string/browse_image_button</item>
+    </style>
+    <!-- note_item.xml styles -->
+    <!-- Custom style for the parent LinearLayout in note_item.xml -->
+    <style name="parent_linear_layout_note_item">
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@android:drawable/dialog_holo_light_frame</item>
+    </style>
+    <!-- Custom style for the ImageView in note_item.xml -->
+    <style name="image_view_note_item">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_margin">@dimen/layout_margin_for_image_view_in_note_item</item>
+    </style>
+    <!-- Custom style for the child LinearLayout in note_item.xml -->
+    <style name="child_linear_layout_note_item">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_margin">
+            @dimen/margin_and_margin_bottom_for_linear_layout_and_title_text_note_item
+        </item>
+    </style>
+    <!-- Custom style for the TextView that represent the title field -->
+    <style name="title_text_view_note_item">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/title_text_view_note_item</item>
+        <item name="android:layout_marginBottom">
+            @dimen/margin_and_margin_bottom_for_linear_layout_and_title_text_note_item
+        </item>
+    </style>
+    <!-- Custom style for the TextView that represent the content field -->
+    <style name="content_text_view_note_item">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/content_et_and_tv_size_activity_note_and_note_item
+        </item>
+    </style>
+</resources>

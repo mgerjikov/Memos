@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/relative_layout_activity_main"
+    tools:context="com.example.android.memos.MainActivity">
+
+    <LinearLayout style="@style/linear_layout_activity_main">
+
+        <ImageView
+            android:id="@+id/empty_state_view"
+            style="@style/image_view_activity_main" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/list_view"
+        style="@style/list_view_activity_main">
+
+    </ListView>
+
+</RelativeLayout>
